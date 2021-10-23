@@ -40,12 +40,27 @@
 # p myArr.methods
 # #methods show how many ways to do within the array.
 
-myHash = {"name" => "Sam Oum", "age" => 39}
-myHash2 = {:name => "Mong Oum", :age => 47}
-#symbol to create 1 object
-myHash3 = {name: "Mong Oum", age: 39}
-#symbol to make it more like JS for object
+# #Objects
+# myHash = {"name" => "Sam Oum", "age" => 39}
+# myHash2 = {:name => "Mong Oum", :age => 47}
+# #symbol to create 1 object
+# myHash3 = {name: "Mong Oum", age: 39}
+# #symbol to make it more like JS for object
 
-p myHash["name"]
-p myHash2[:age]
-p myHash3[:age]
+# p myHash["name"]
+# p myHash2[:age]
+# p myHash3[:age]
+
+#function
+def returnOne
+    return 1
+    2
+end
+p returnOne
+
+def returnOne x
+    x + 1
+end
+p returnOne 5
+p returnOne(returnOne(5))
+p returnOne returnOne 5

@@ -34,8 +34,18 @@
 #     y -= 1
 # end
 
-#array - puts = p
-myArr = [1, 2, 3, 4, 5]
-p myArr[0]
-p myArr.methods
-#methods show how many ways to do within the array.
+# #array - puts = p
+# myArr = [1, 2, 3, 4, 5]
+# p myArr[0]
+# p myArr.methods
+# #methods show how many ways to do within the array.
+
+myHash = {"name" => "Sam Oum", "age" => 39}
+myHash2 = {:name => "Mong Oum", :age => 47}
+#symbol to create 1 object
+myHash3 = {name: "Mong Oum", age: 39}
+#symbol to make it more like JS for object
+
+p myHash["name"]
+p myHash2[:age]
+p myHash3[:age]

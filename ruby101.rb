@@ -4,3 +4,10 @@ puts "Hello World"
 
 choose = "gouda"
 puts choose
+
+age = 38
+puts age
+
+hello = "hello"
+world = "world"
+puts "#{hello} #{world}"
